@@ -183,7 +183,7 @@ MIT License
 
 ## 🎥 Demo
 
-[Loom Video Demo Link - Add after recording]
+Loom Video Demo Link - https://www.loom.com/share/3f22745362e84b61a45d8cdc91d34cd5
 
 
 
