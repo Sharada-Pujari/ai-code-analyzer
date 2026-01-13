@@ -1,4 +1,4 @@
-\# 🤖 AI-Powered Code Analyzer
+# 🤖 AI-Powered Code Analyzer
 
 
 
@@ -6,41 +6,41 @@ A smart JavaScript code analyzer that detects bugs, security issues, and best pr
 
 
 
-\## ✨ Features
+## ✨ Features
 
 
 
-\- \*\*Quality Scoring\*\* - 0-10 scale code quality assessment
+- **Quality Scoring** - 0-10 scale code quality assessment
 
-\- \*\*Issue Detection\*\* - Identifies bugs, security risks, and performance problems
+- **Issue Detection** - Identifies bugs, security risks, and performance problems
 
-\- \*\*Best Practices\*\* - Checks coding standards compliance
+- **Best Practices** - Checks coding standards compliance
 
-\- \*\*Code Refactoring\*\* - Automatically generates improved code
+- **Code Refactoring** - Automatically generates improved code
 
-\- \*\*Detailed Reports\*\* - Exportable JSON reports
+- **Detailed Reports** - Exportable JSON reports
 
-\- \*\*Offline Operation\*\* - No API keys or internet required
-
-
-
-\## 🚀 Quick Start
+- **Offline Operation** - No API keys or internet required
 
 
 
-\### Installation
+## Quick Start
+
+
+
+### Installation
 
 ```bash
 
-\# Clone the repository
+# Clone the repository
 
-git clone https://github.com/YOUR\_USERNAME/ai-code-analyzer.git
+git clone https://github.com/Sharada-PujariE/ai-code-analyzer.git
 
 cd ai-code-analyzer
 
 
 
-\# Install dependencies (none required for core functionality)
+# Install dependencies (none required for core functionality)
 
 npm install
 
@@ -48,11 +48,11 @@ npm install
 
 
 
-\### Usage
+### Usage
 
 ```bash
 
-\# Run the analyzer
+# Run the analyzer
 
 npm start
 
@@ -60,7 +60,7 @@ npm start
 
 
 
-\## 📊 Sample Output
+##  Sample Output
 
 ```
 
@@ -102,7 +102,7 @@ Analyzing JavaScript Code...
 
 
 
-\## 🛠️ How It Works
+##  How It Works
 
 
 
@@ -110,17 +110,16 @@ The analyzer performs static code analysis by:
 
 
 
-1\. \*\*Pattern Matching\*\* - Detects anti-patterns and code smells
+1. **Pattern Matching** - Detects anti-patterns and code smells
 
-2\. \*\*Best Practice Checks\*\* - Validates against JavaScript standards
+2. **Best Practice Checks** - Validates against JavaScript standards
 
-3\. \*\*Quality Scoring\*\* - Calculates score based on issues found
+3. **Quality Scoring** - Calculates score based on issues found
 
-4\. \*\*Auto-Refactoring\*\* - Suggests improved code versions
+4. **Auto-Refactoring** - Suggests improved code versions
 
 
-
-\## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -140,67 +139,51 @@ ai-code-analyzer/
 
 
 
-\## 🎯 Detected Issues
+##  Detected Issues
+
+-  `var` usage (should use `const`/`let`)
+-  Loose equality `==` (should use `===`)
+-  Traditional loops (should use Array methods)
+-  Missing error handling
+-  Magic numbers
+-  Short function names
 
 
 
-\- ❌ `var` usage (should use `const`/`let`)
-
-\- ❌ Loose equality `==` (should use `===`)
-
-\- ❌ Traditional loops (should use Array methods)
-
-\- ❌ Missing error handling
-
-\- ❌ Magic numbers
-
-\- ❌ Short function names
+## Future Enhancements
 
 
 
-\## 🔮 Future Enhancements
+- Multi-language support (Python, Java, C++)
+
+- AI-powered suggestions using LLMs
+
+- IDE integration (VS Code extension)
+
+- Real-time analysis
+
+- Team collaboration features
+
+- Custom rule configurations
 
 
 
-\- Multi-language support (Python, Java, C++)
-
-\- AI-powered suggestions using LLMs
-
-\- IDE integration (VS Code extension)
-
-\- Real-time analysis
-
-\- Team collaboration features
-
-\- Custom rule configurations
-
-
-
-\## 📝 License
-
-
+## License
 
 MIT License
 
 
+## 👤 Author
 
-\## 👤 Author
+**Sharada Pujari**
 
+- GitHub: https://github.com/Sharada-Pujari
 
+- Internship: Pearl Thoughts AI Engineer Program
 
-\*\*Sharada Pujari\*\*
+## 🎥 Demo
 
-\- GitHub: https://github.com/Sharada-Pujari/
-
-\- Internship: Pearl Thoughts AI Engineer Program
-
-
-
-\## 🎥 Demo
-
-
-
-\[Loom Video Demo Link - Add after recording]
+[Loom Video Demo Link - Add after recording]
 
 
 
