@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-01-13T06:06:36.218Z",
+  "qualityScore": 5,
+  "status": "NEEDS IMPROVEMENT",
+  "issuesFound": 5,
+  "issues": [
+    {
+      "severity": "Medium",
+      "type": "Best Practice",
+      "issue": "Using \"var\" instead of \"const\" or \"let\"",
+      "line": 3,
+      "fix": "Replace \"var\" with \"const\" for constants or \"let\" for variables"
+    },
+    {
+      "severity": "High",
+      "type": "Bug Risk",
+      "issue": "Using loose equality (==) instead of strict equality (===)",
+      "line": 13,
+      "fix": "Replace \"==\" with \"===\" for type-safe comparisons"
+    },
+    {
+      "severity": "Low",
+      "type": "Modernization",
+      "issue": "Traditional for-loops found",
+      "line": 4,
+      "fix": "Consider using Array methods like forEach(), map(), or filter()"
+    },
+    {
+      "severity": "Medium",
+      "type": "Error Handling",
+      "issue": "No error handling found",
+      "line": "N/A",
+      "fix": "Add try-catch blocks for robust error handling"
+    },
+    {
+      "severity": "Low",
+      "type": "Maintainability",
+      "issue": "Magic numbers found in code",
+      "line": "Multiple",
+      "fix": "Extract numbers into named constants"
+    }
+  ],
+  "suggestions": [
+    "Refactor: Use const/let instead of var for better scoping",
+    "Refactor: Use === for type-safe equality checks",
+    "Modernize: Replace for-loops with Array methods (map, filter, reduce)"
+  ],
+  "originalCode": "\nfunction calculateTotal(items) {\n  var total = 0;\n  for (var i = 0; i < items.length; i++) {\n    total = total + items[i].price;\n  }\n  return total;\n}\n\nfunction processOrders(orders) {\n  var results = [];\n  for (var i = 0; i < orders.length; i++) {\n    if (orders[i].status == \"pending\") {\n      results.push(orders[i]);\n    }\n  }\n  return results;\n}\n",
+  "refactoredCode": "\nfunction calculateTotal(items) {\n  const total = 0;\n  for (const i = 0; i < items.length; i++) {\n    total = total + items[i].price;\n  }\n  return total;\n}\n\nfunction processOrders(orders) {\n  const results = [];\n  for (const i = 0; i < orders.length; i++) {\n    if (orders[i].status === \"pending\") {\n      results.push(orders[i]);\n    }\n  }\n  return results;\n}\n"
+}
