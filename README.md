@@ -188,9 +188,9 @@ MIT License
 
 
 
-\*\*Your Name\*\*
+\*\*Sharada Pujari\*\*
 
-\- GitHub: \[@yourusername](https://github.com/yourusername)
+\- GitHub: https://github.com/Sharada-Pujari/
 
 \- Internship: Pearl Thoughts AI Engineer Program
 
